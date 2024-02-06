@@ -1,0 +1,19 @@
+<h1> Tacos! </h1>
+
+<p> I love tacos and here are my favorites</p>
+
+<% fillings = ["Carnitas" , "Carne Asada", "Crispy Shrimp", "Mushroom", "Chicken Tinga", "Baja Fish", "Avocado", "Barbacoa"] %>
+
+<!-- I'm a comment -->
+
+<p>I have <%= fillings.count %> favorite tacos </p>
+
+<ul>
+  <% for filling in fillings %>
+  <li><%= filling%></li>
+  <% end %>
+</ul>
+
+<p>
+  <a href="/dice">Roll Two Random Dice
+</p>

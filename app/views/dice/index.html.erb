@@ -1,0 +1,30 @@
+<h1>Dice</h1>
+<% die1 = rand(1..6) 
+    die2 = rand(1..6)
+%>
+
+<p>Here is are two random dice rolls and their sum</p>
+
+<p>Die 1</p>
+
+<p>
+<img src="images/dice/<%= die1 %>.svg">
+<p>
+
+<p>Die 2</p>
+
+<p>
+<img src="images/dice/<%= die2 %>.svg">
+<p>
+
+
+<p>Sum of Die</p>
+<%= die1 + die2 %>
+
+<p>
+  <a href="/dice">Roll Again
+</p>
+
+<p>
+  <a href="/tacos">Actually, I want to look at Anna's favorite tacos
+</p>
